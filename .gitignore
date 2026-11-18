@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Generated vector database and conversation data
+RAG_project/chroma_db/
+RAG_project/chat_history/
+RAG_project/md5.text
+
+# IDE and OS files
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
